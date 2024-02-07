@@ -9,6 +9,7 @@
 html {
     font-size: 62.5%;
     font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -99,7 +100,11 @@ button {
 
 /* Header */
 header {
+    position: sticky;
+    top: -26px;
+    z-index: 5;
     padding: 26px 0;
+    background: #f6ebe0;
 }
 
 .header__inner {
